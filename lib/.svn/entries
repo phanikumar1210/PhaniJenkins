@@ -1,0 +1,47 @@
+8
+
+dir
+4
+https://172.17.12.82:8443/svn/PhaniJenkins/lib
+https://172.17.12.82:8443/svn/PhaniJenkins
+
+
+
+2017-03-14T21:30:34.865734Z
+1
+phanikumar
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+1bcf21fe-e094-f547-8f5b-6f2ed98a779e
+
+CopyLibs
+dir
+
+javaee-endorsed-api-7.0
+dir
+
+nblibraries.properties
+file
+
+
+
+
+2017-04-10T21:49:18.000000Z
+8001b27cea8890383bec54a5a5c3264e
+2017-03-14T21:30:34.865734Z
+1
+phanikumar
+has-props
+
