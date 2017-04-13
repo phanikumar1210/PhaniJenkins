@@ -22,7 +22,7 @@
       </javac>
    </target>
    <target name = "test" depends = "compile">
-      <junit failureproperty="test.failed">
+      <junit fork="yes" printsummary="withOutAndErr" errorProperty="test.failed" failureProperty="test.failed" logfailedtests="yes">
          <classpath refid = "classpath.test" />
          <formatter type = "brief" usefile = "false" />
          <test name = "TestMessageUtil" haltonfailure="no" todir="${testdir}">
@@ -30,5 +30,6 @@
 			<formatter type="xml" />
 		 </test>
       </junit>
+	  <fail message="Tests failed. Please see test reports" if="test.failed" />
    </target>
 </project>
