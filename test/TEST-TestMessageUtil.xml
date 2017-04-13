@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="Guest642" name="TestMessageUtil" skipped="0" tests="2" time="0.085" timestamp="2017-04-13T18:35:00">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Windows 8.1" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\apache-ant-1.9.7" />
+    <property name="java.runtime.version" value="1.8.0_121-b13" />
+    <property name="user.name" value="Prasad" />
+    <property name="ant.file.JunitTest" value="F:\jenkins\Junit\build.xml" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin" />
+    <property name="ant.project.default-target" value="test" />
+    <property name="srcdir" value="F:\jenkins\Junit\src" />
+    <property name="ant.project.name" value="JunitTest" />
+    <property name="java.version" value="1.8.0_121" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="IN" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="F:\jenkins\Junit\build.xml" />
+    <property name="os.version" value="6.3" />
+    <property name="ant.file.type.JunitTest" value="file" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.121-b13" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\apache-ant-1.9.7\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="sun.stdout.encoding" value="cp437" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\Prasad" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\Ruby23-x64\bin;c:\opscode\chefdk\embedded\bin;C:\Program Files (x86)\Python35-32\Scripts\;C:\Program Files (x86)\Python35-32\;C:\Program Files (x86)\Lenovo\FusionEngine;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.7.0_51\bin;C:\Program Files (x86)\CloudFoundry;C:\Program Files\Docker Toolbox;C:\opscode\chef\embedded\bin\;C:\opscode\chefdk\embedded\bin\;C:\opscode\chef\embedded\bin\;C:\Program Files (x86)\PuTTY;C:\Ruby23\bin;C:\Program Files\ibm\gsk8\lib64;C:\Program Files (x86)\ibm\gsk8\lib;C:\Program Files\Amazon\AWSCLI\;C:\Program Files (x86)\PuTTY\;C:\Program Files\CloudFoundry;C:\Program Files\nodejs\;C:\Program Files (x86)\Python35-32;C:\Packer;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;c:\opscode\chefdk\embedded\bin;C:\apache-ant-1.9.7\bin;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\opscode\inspec\bin\;C:\Program Files\Oracle\VirtualBox;C:\Program Files\Cloud Foundry;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;c:\users\prasad\appdata\local\chefdk\gem\ruby\2.3.0\bin;C:\opscode\chefdk\bin\;C:\opscode\chef\bin\;C:\HashiCorp\Vagrant\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;c:\opscode\chefdk\embedded\bin;C:\Ruby23\bin;C:\apache-ant-1.9.7\bin;C:\apache-ant-1.9.7\bin;C:\Program Files\Java\jdk1.7.0_51\bin;C:\opscode\chefdk\bin\;C:\opscode\chef\bin\;C:\opscode\chef\embedded\bin\;C:\Program Files (x86)\PuTTY;C:\Ruby23\bin;C:\Users\Prasad\AppData\Roaming\npm;C:\Program Files (x86)\Python35-32;C:\Packer;C:\Program Files (x86)\sox-14-4-2\;C:\Program Files\Cloud Foundry;C:\Program Files\Docker Toolbox;C:\apache-maven-3.3.9-bin\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="testdir" value="F:\jenkins\Junit\test" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher -cp .;C:\Program Files\Java\jdk1.8.0_121\bin" />
+    <property name="java.class.path" value="C:\apache-ant-1.9.7\lib\ant-launcher.jar;F:\jenkins\Junit\.\;C:\Program Files\Java\jdk1.8.0_121\bin\;C:\apache-ant-1.9.7\lib\ant-antlr.jar;C:\apache-ant-1.9.7\lib\ant-apache-bcel.jar;C:\apache-ant-1.9.7\lib\ant-apache-bsf.jar;C:\apache-ant-1.9.7\lib\ant-apache-log4j.jar;C:\apache-ant-1.9.7\lib\ant-apache-oro.jar;C:\apache-ant-1.9.7\lib\ant-apache-regexp.jar;C:\apache-ant-1.9.7\lib\ant-apache-resolver.jar;C:\apache-ant-1.9.7\lib\ant-apache-xalan2.jar;C:\apache-ant-1.9.7\lib\ant-commons-logging.jar;C:\apache-ant-1.9.7\lib\ant-commons-net.jar;C:\apache-ant-1.9.7\lib\ant-jai.jar;C:\apache-ant-1.9.7\lib\ant-javamail.jar;C:\apache-ant-1.9.7\lib\ant-jdepend.jar;C:\apache-ant-1.9.7\lib\ant-jmf.jar;C:\apache-ant-1.9.7\lib\ant-jsch.jar;C:\apache-ant-1.9.7\lib\ant-junit.jar;C:\apache-ant-1.9.7\lib\ant-junit4.jar;C:\apache-ant-1.9.7\lib\ant-launcher.jar;C:\apache-ant-1.9.7\lib\ant-netrexx.jar;C:\apache-ant-1.9.7\lib\ant-swing.jar;C:\apache-ant-1.9.7\lib\ant-testutil.jar;C:\apache-ant-1.9.7\lib\ant.jar;C:\Program Files\Java\jdk1.8.0_121\lib\tools.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.7 compiled on April 9 2016" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.io.tmpdir" value="C:\Users\Prasad\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="F:\jenkins\Junit" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="F:\jenkins\Junit" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\apache-ant-1.9.7\lib\ant.jar" />
+    <property name="sun.stderr.encoding" value="cp437" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="full-compile" value="true" />
+  </properties>
+  <testcase classname="TestMessageUtil" name="testSalutationMessage" time="0.022">
+    <failure message="expected:&lt;Hi![]Robert&gt; but was:&lt;Hi![a]Robert&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;Hi![]Robert&gt; but was:&lt;Hi![a]Robert&gt;
+	at TestMessageUtil.testSalutationMessage(Unknown Source)
+</failure>
+  </testcase>
+  <testcase classname="TestMessageUtil" name="testPrintMessage" time="0.0" />
+  <system-out><![CDATA[Inside testSalutationMessage()
+Hi!aRobert
+Inside testPrintMessage()
+Robert
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
