@@ -1,11 +1,11 @@
 Testsuite: TestMessageUtil
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.112 sec
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 sec
 ------------- Standard Output ---------------
-Inside testSalutationMessage()
-Hi!Robert
 Inside testPrintMessage()
 Robert
+Inside testSalutationMessage()
+Hi!Robert
 ------------- ---------------- ---------------
 
-Testcase: testSalutationMessage took 0 sec
 Testcase: testPrintMessage took 0 sec
+Testcase: testSalutationMessage took 0 sec

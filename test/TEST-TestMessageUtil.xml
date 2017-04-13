@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Guest642" name="TestMessageUtil" skipped="0" tests="2" time="0.112" timestamp="2017-04-13T21:39:55">
+<testsuite errors="0" failures="0" hostname="Guest642" name="TestMessageUtil" skipped="0" tests="2" time="0.109" timestamp="2017-04-13T21:41:04">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
@@ -49,7 +49,7 @@
     <property name="testdir" value="F:\jenkins\PhaniJenkins\test" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner TestMessageUtil skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,F:\jenkins\PhaniJenkins\test\TEST-TestMessageUtil.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,F:\jenkins\PhaniJenkins\test\TEST-TestMessageUtil.xml crashfile=F:\jenkins\PhaniJenkins\junitvmwatcher4035870219230264880.properties propsfile=F:\jenkins\PhaniJenkins\junit3407860711019883113.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner TestMessageUtil skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,F:\jenkins\PhaniJenkins\test\TEST-TestMessageUtil.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,F:\jenkins\PhaniJenkins\test\TEST-TestMessageUtil.xml crashfile=F:\jenkins\PhaniJenkins\junitvmwatcher9174420866733696668.properties propsfile=F:\jenkins\PhaniJenkins\junit6874388933499546825.properties" />
     <property name="java.class.path" value="F:\jenkins\PhaniJenkins\lib\junit-4.10.jar;F:\jenkins\PhaniJenkins\test;F:\jenkins\PhaniJenkins\src;F:\jenkins\PhaniJenkins;C:\Program Files\Java\jdk1.8.0_121\bin;C:\apache-ant-1.9.7\lib\ant-launcher.jar;C:\apache-ant-1.9.7\lib\ant.jar;C:\apache-ant-1.9.7\lib\ant-junit.jar;C:\apache-ant-1.9.7\lib\ant-junit4.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.7 compiled on April 9 2016" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
@@ -74,12 +74,12 @@
     <property name="ant.project.invoked-targets" value="test" />
     <property name="full-compile" value="true" />
   </properties>
-  <testcase classname="TestMessageUtil" name="testSalutationMessage" time="0.0" />
   <testcase classname="TestMessageUtil" name="testPrintMessage" time="0.0" />
-  <system-out><![CDATA[Inside testSalutationMessage()
-Hi!Robert
-Inside testPrintMessage()
+  <testcase classname="TestMessageUtil" name="testSalutationMessage" time="0.0" />
+  <system-out><![CDATA[Inside testPrintMessage()
 Robert
+Inside testSalutationMessage()
+Hi!Robert
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
