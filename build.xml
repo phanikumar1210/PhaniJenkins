@@ -30,6 +30,6 @@
 			<formatter type="xml" />
 		 </test>
       </junit>
-		<fail status="-1" message="Build got failed" />
+		<fail status="-1" message="Build got failed" if="test.failed" />
    </target>
 </project>
