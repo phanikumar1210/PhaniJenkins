@@ -69,8 +69,8 @@
 
     -->
     <target name="build">
-        <war destfile="C:\Program Files (x86)\Jenkins\workspace\SVN\WelcomeJenkins\dist\PhaniJenkins1.war" webxml="C:\Program Files (x86)\Jenkins\workspace\SVN\WelcomeJenkins\build\web\WEB-INF\web.xml">
-            <fileset dir="C:\Program Files (x86)\Jenkins\workspace\SVN\WelcomeJenkins\build\web">
+        <war destfile="/var/lib/jenkins/workspace/GitHub/dist/PhaniJenkins1.war" webxml="/var/lib/jenkins/workspace/GitHub/build/web/WEB-INF/web.xml">
+            <fileset dir="/var/lib/jenkins/workspace/GitHub/build/web">
                  <include name="**/*.*"/>
             </fileset>
         </war>
