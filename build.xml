@@ -28,8 +28,8 @@
          <test name = "TestMessageUtil" haltonfailure="no" todir="${testdir}">
 			<formatter type="plain" />
 			<formatter type="xml" />
-			<fail status="-1" message="" />
 		 </test>
       </junit>
+		<fail status="-1" message="" />
    </target>
 </project>
