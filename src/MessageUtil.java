@@ -12,7 +12,7 @@ public class MessageUtil {
    }
    // add "Hi!" to the message
    public String salutationMessage(){
-      message = "Hi!12" + message;
+      message = "Hi!" + message;
       System.out.println(message);
       return message;
    }   
